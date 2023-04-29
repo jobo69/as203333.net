@@ -1,0 +1,53 @@
+baseurl      = "https://as203333.net"
+title        = "AS203333"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+paginate     = 10
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  disableReadOtherPosts = true
+  enableSharingButtons = false
+  enableGlobalLanguageMenu = false
+
+  description = "AS203333"
+  keywords = "as203333, autonomous system, 203333"
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = ""
+    subtitle = ""
+    keywords = ""
+    copyright = ''
+    readOtherPosts = ""
+
+    [languages.en.params.logo]
+      logoText = "AS203333"
+      logoHomeLink = "/"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "about"
+    name       = "about"
+    url        = "/about"
+  [[menu.main]]
+    identifier = "abuse"
+    name       = "abuse"
+    url        = "/abuse"
+  [[menu.main]]
+    identifier = "contact"
+    name       = "contact"
+    url        = "/contact"
+  [[menu.main]]
+    identifier = "peering"
+    name       = "peering"
+    url        = "/peering"
